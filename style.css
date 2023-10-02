@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+body {
+  --blue: #93b5c9;
+  --wine: #ab2849;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  height: 15vh;
+  background: var(--blue);
+}
+header {
+  height: 30vh;
+  background: var(--wine);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+section > * {
+  margin: 0.5em 0;
+  height: 15vh;
+  background: var(--wine);
+  width: 80vw;
+}
+footer {
+  background: var(--wine);
+  height: 15vh;
+  width: 90vw;
+  align-self: center;
+  margin-bottom: 1em;
+}

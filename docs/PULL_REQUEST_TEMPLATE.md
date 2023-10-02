@@ -6,9 +6,9 @@
 
 # Tecnología
 
-- [ ] HTML
-- [ ] CSS3
-- [x] docs
+- [x] HTML
+- [x] CSS3
+- [ ] docs
 
 # Seleccione el tipo de actividad
 
